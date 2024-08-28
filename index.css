@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+#root {
+  background-image: radial-gradient(
+    96.74% 276.79% at 3.59% 5.28%,
+    #f0f4ff 0%,
+    #a5b6ee 100%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Pretendard-Regular";
+}
+
+header {
+  margin-top: 72px;
+}
+
+main {
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px #374b7c66;
+  width: 400px;
+  height: 360px;
+  margin-top: 60px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h2 {
+  margin-top: 48px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+main .line {
+  width: 312px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: #3d538a;
+  box-shadow: inset 0px 0px 1px#666;
+}
+
+main .two {
+  background-color: #5b75b4;
+}
+
+main .count {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  align-items: center;
+  position: relative;
+}
+
+main .count .dot-img {
+   position: absolute;
+   left: 85px;
+   top: 45px;
+}
+
+main .count .dot-img-two {
+  position: absolute;
+  right: 85px;
+  top: 45px;
+}
+
+main .count label {
+  margin-right: 16px;
+  text-align: center;
+
+}
+
+main .count label p { 
+  color: #A5B6EE;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.4px;
+  margin-bottom: 4px;
+}
+
+main .count label:last-child {
+  margin-right: 0;
+}
+
+main .count input {
+  background: url(./img/Rectangle\ 1.png) no-repeat;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+  line-height: 48.01px;
+}
+
+main .count input::placeholder {
+  color: #fff;
+}
+
+main .button {
+  margin-top: 40px;
+}
+
+footer {
+  margin: 60px 0 103px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #8596bf;
+}
